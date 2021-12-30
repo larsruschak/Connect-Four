@@ -5,23 +5,23 @@ public class Evaluation extends Main{
 
 	 //the value of each field represents the number of possible four in a rows
 	private static int[][] positions_value = {{3, 4, 5 , 7, 5, 4, 3},
-			   				   {4, 6, 8, 10, 8 , 6, 4},
-			   				   {5, 8, 11, 13, 11, 8, 5},
-			   				   {5, 8, 11, 13, 11, 8, 5},
-			   				   {4, 6, 8, 10, 8 , 6, 4},
-			   				   {3, 4, 5 , 7, 5, 4, 3}};
+			   			  {4, 6, 8, 10, 8 , 6, 4},
+			   			  {5, 8, 11, 13, 11, 8, 5},
+			   			  {5, 8, 11, 13, 11, 8, 5},
+			   			  {4, 6, 8, 10, 8 , 6, 4},
+			   			  {3, 4, 5 , 7, 5, 4, 3}};
 	
 	//Position || Moves || Rows -> the parameters have been optimized
 	private static double[][] params = {{0.6, 0.1, 0.3},
-										{0.1, 0.1, 0.8},
-										{0.3, 0.1, 0.6},
-										{0.1, 0.0, 0.9},
-										{0.5, 0.2, 0.3},
-										{0.3, 0.2, 0.5},
-										{0.5, 0.0, 0.5},
-										{0.6, 0.0, 0.4},
-										{0.3, 0.0, 0.7},
-										{0.5, 0.4, 0.1}};
+					    {0.1, 0.1, 0.8},
+					    {0.3, 0.1, 0.6},
+					    {0.1, 0.0, 0.9},
+				            {0.5, 0.2, 0.3},
+					    {0.3, 0.2, 0.5},
+					    {0.5, 0.0, 0.5},
+					    {0.6, 0.0, 0.4},
+					    {0.3, 0.0, 0.7},
+					    {0.5, 0.4, 0.1}};
 
 	private static int score = 0;
 	private static int four = 4;
