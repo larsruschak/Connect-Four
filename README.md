@@ -1,5 +1,5 @@
 # Connect-Four
-A Programm To Play Against A Connect Four AI.
+A Program To Play Against A Connect Four AI.
 
 As a part of my final thesis, to learn the language Java and to get an introduction to AI's, I programmed an artificial intelligence in the game Connect Four. The AI is based on 
 the minimax algorithm. To reduce the computing time, I used the alpha-beta-pruning. I implemented several evaluations of the board. One evaluates the positions on the board, 
