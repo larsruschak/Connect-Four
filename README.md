@@ -9,6 +9,8 @@ I have programmed a GUI that looks like the original version of the Connect Four
 Player v Player, Player v Computer and Computer v Computer. Furthermore it is possible to choose a difficulty for the AI, from 1 up to 4. A difficulty of four represents
 a searching depth of eight.
 
+A .jar-File is in the folder "Program". You will find the code to the program in the "Backup" folder.
+
 I hope you enjoy playing against my AI!
 
 
