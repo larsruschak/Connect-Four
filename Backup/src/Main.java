@@ -4,6 +4,7 @@ public class Main {
 	
 	public static int height = 6, width = 7;
 	public static int player = 1, computer = 2;
+	\\Depth1 and Depthset1 are the depth of the other computer when playing the mode "Computer vs Computer"
 	public static int Depth = 4, Depth1 = 5, Depthset, Depthset1;
 	private static int saved;
 	public static int finish  = 2;
