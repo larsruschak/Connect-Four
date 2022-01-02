@@ -253,25 +253,27 @@ public class Main {
 	//places the piece on the board
 	public static void turn(int x, int player) {
 		int y = next_possible(x);
+		//if there is no possible position in the column:
 		if (y == -1) {
 			GUI.moves -= 1;
 			setTitle("INVALID COLUMN");
-		}else {
+		} else {
 			board[y][x] = player;
 			GUI.Update_Board(y, x, player);
 		}
 	}
 	
-	//starts the game
+	//starts the game, called by MainMenu
 	public static void start_game() {
 		create_board();
-		//get state
+		//get gamemode
 		pvp = MainMenu.get_pvp();
 		pvc = MainMenu.get_pvc();
 		cvc = MainMenu.get_cvc();
 		//initializes the parameters of the evaluation function
 		if (pvc || cvc) 
 			eval.initialize();
+		//if you want the computer to start in Player vs Computer, set GUI.moves equal to 1
 		GUI.moves = 0;
 		finish = 0;
 		System.out.println("Game started");
